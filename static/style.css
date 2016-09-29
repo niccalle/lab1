@@ -1,0 +1,15 @@
+nav .nav-wrapper {
+  background-image: url("./shores.jpg");
+  height: 300px;
+  background-size: cover;
+}
+.container {
+  padding-top: 325px;
+}
+#logo.brand-logo{
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 48px;
+  left: 50%;
+  top:25%;
+}

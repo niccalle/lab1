@@ -4,22 +4,106 @@
 <head>
 	<meta charset="utf-8">
 	<title>HCI Project Portfolio</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+	<link rel="stylesheet" href="./style.css" media="screen" title="no title">
 </head>
 
 <body>
 	<!-- this is a comment in HTML -->
-	<h1>Philip Guo</h1> <!-- h1 through h5 are headers. The higher the number, the smaller the header -->
-	<h4>Project Portfolio</h4>
+	<nav>
+		<div class="nav-wrapper">
+			<a href="#" class="brand-logo" id="logo">Nicolas Calle</a>
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li><a href="sass.html">Experience</a></li>
+				<li><a href="badges.html">Projects</a></li>
+				<li><a href="collapsible.html">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+
+
+	<!-- <h1>Nicolas Calle</h1>
+	<h4>Project Portfolio</h4> -->
 
 	<!-- p means paragraph -->
-	<p>Philip Guo is an assistant professor of cognitive science at UC San Diego (Go Tritons!). His research spans human-computer interaction, online learning, and computing education.</p>
+	<div class="container">
+		<div class="subsect">
+			<h4>Experience</h4>
 
-	<h4>Projects</h4>
-	<ol>
-		<li>Design Thinking</li>
-		<li>Needfinding</li>
-		<li>Prototyping</li>
-		<li>...</li>
-	</ol>
+			<div class="row">
+				<div class="col s12 m6">
+          <div class="card medium">
+            <div class="card-image">
+              <img src="./airbnb.jpg">
+            </div>
+            <div class="card-content">
+              <p>Interning at Airbnb Summer 2017.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">Software Engineering Intern</a>
+            </div>
+          </div>
+        </div>
+				<div class="col s12 m6">
+					<div class="card medium">
+						<div class="card-image">
+							<img src="./facebook.png">
+						</div>
+						<div class="card-content">
+							<p>Interning at Facebook Fall 2017.</p>
+						</div>
+						<div class="card-action">
+							<a href="#">Software Engineering Intern</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+        <div class="col s12 m6">
+          <div class="card medium">
+            <div class="card-image">
+              <img src="./pinterest.jpg">
+            </div>
+            <div class="card-content">
+              <p>Interned at Pinterest on the Search team.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">Software Engineering Engage Intern</a>
+            </div>
+          </div>
+        </div>
+				<div class="col s12 m6">
+					<div class="card medium">
+						<div class="card-image">
+							<img src="./ucsd.jpg">
+						</div>
+						<div class="card-content">
+							<p>Tutored the Introduction to Data Structures course at UCSD.</p>
+						</div>
+						<div class="card-action">
+							<a href="#">UCSD CSE Tutor</a>
+						</div>
+					</div>
+				</div>
+
+      </div>
+		</div>
+		<div class="subsect">
+			<h4>Projects</h4>
+			<ol>
+				<li>Design Thinking</li>
+				<li>Needfinding</li>
+				<li>Prototyping</li>
+				<li>...</li>
+			</ol>
+		</div>
+		<div class="subsect">
+			<h4>Contact</h4>
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/core.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
 </body>
 </html>
